@@ -1,4 +1,4 @@
-package com.example.springboot;
+package com.lxh;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
