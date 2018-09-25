@@ -27,4 +27,9 @@ public class TestController {
     public String Test2(@PathVariable("id") String id){
         return ""+id;
     }
+
+    @GetMapping("/query/{queryid}")
+    public String Test3(){
+        return null;
+    }
 }
