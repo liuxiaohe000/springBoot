@@ -30,6 +30,7 @@ public class TestController {
 
     @GetMapping("/query/{queryid}")
     public String Test3(){
+        System.out.println(1111);
         return null;
     }
 }
