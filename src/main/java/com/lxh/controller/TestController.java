@@ -30,6 +30,10 @@ public class TestController {
 
     @GetMapping("/query/{queryid}")
     public String Test3(){
+        int i = 1;
+        for(int j = 0;j<=i ;j++){
+            System.out.println(i);
+        }
         return null;
     }
 }
